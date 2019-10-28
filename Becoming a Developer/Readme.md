@@ -169,3 +169,19 @@ List =>
 
 LISTAR - Crear y editar.
 
+
+----------------------------------------------------------------
+---------------- 5.1 Advanced Data QUerties --------------------
+----------------------------------------------------------------
+
+Advanced Queries
+● Aggregates
+○ Multiple Sources
+○ Joins
+    ● Only With
+    ● With or Without
+    ● With
+
+○ Calculated Attributes
+    
+○ Aggregating Records
