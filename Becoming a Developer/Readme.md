@@ -25,3 +25,19 @@ Static Entities:
 Static Entity Records
 
 y usos
+
+
+----------------------------------------------------
+----------- Modeling Data --------------------------
+
+data relationships 
+
+One-to-one,
+one-to-many,
+and many to many
+
+Aprendemos a crear dependencias del modulo.
+
+La interface consume del core.
+
+
