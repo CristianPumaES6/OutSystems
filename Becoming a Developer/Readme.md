@@ -84,3 +84,15 @@ Structures
 Structures are custom compound data types
 -The Structure itself does not hold any value
 -Structures are not variables 
+
+---------------------------------------------------
+-------- Ejercicio 3 ------------------------------
+---------------------------------------------------
+
+creating the data model.
+
+Tomar en cuenta cuando una funcion o entidad se usa desde otro lado, es recomendable agregar de tipo publica.
+
+// la relaciones se haces desde Data Type
+
+-
