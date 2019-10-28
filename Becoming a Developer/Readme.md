@@ -123,3 +123,19 @@ Client-side Logic
     Client Actions
         - Visually modeled logic and data
         - Easy to call server-side logic
+
+---------------------------------------
+---------- Aggregates Overview --------
+--------------------------------------- 
+
+Aggregates allow us to define
+database queries in a visual way
+● Add Sources
+● Create filters
+● Define sorting
+
+
+Aggregates are easy to create
+and maintain
+● Excel-like display of real data
+● SQL knowledge is NOT required
