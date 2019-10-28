@@ -124,9 +124,9 @@ Client-side Logic
         - Visually modeled logic and data
         - Easy to call server-side logic
 
----------------------------------------
----------- Aggregates Overview --------
---------------------------------------- 
+-------------------------------------------
+---------- 4.2 Aggregates Overview --------
+-------------------------------------------
 
 Aggregates allow us to define
 database queries in a visual way
@@ -139,3 +139,12 @@ Aggregates are easy to create
 and maintain
 ● Excel-like display of real data
 ● SQL knowledge is NOT required
+
+-------------------------------------------
+---------- 4.3 Movile Widgets --------
+-------------------------------------------
+
+Existes muchos componentes basico la proxima que lean esto, les recomiendo leer el doc.
+
+
+
