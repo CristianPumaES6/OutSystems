@@ -95,4 +95,31 @@ Tomar en cuenta cuando una funcion o entidad se usa desde otro lado, es recomend
 
 // la relaciones se haces desde Data Type
 
--
+-------------------------------
+---------- 4.1 Screen ---------
+-------------------------------
+Screen Templates
+Screens can be Empty or based on a Template
+
+Screen Content
+OutSystems Screens are built based on widgets (UI elements)
+
+Screen Variables
+What is displayed to the end-user can depend on data
+● Some data can come be passed to the Screen
+    Input Parameters
+● These variables only exist in the scope of the
+Screen
+
+Fetching Data to Display on Screen
+Database or Local Storage Entities
+    Data Action for advanced cases
+        - Server Action
+        -Output Data Type by default is Text, but can be changed
+
+
+
+Client-side Logic
+    Client Actions
+        - Visually modeled logic and data
+        - Easy to call server-side logic
