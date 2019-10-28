@@ -146,5 +146,26 @@ and maintain
 
 Existes muchos componentes basico la proxima que lean esto, les recomiendo leer el doc.
 
+----------------------------------------------
+---------------- Exercice --------------------
+----------------------------------------------
 
+First, we will add a reference to the Entities from the ToDo module.
+
+le agregamos al if
+
+un if tiene un container. Condition .GetToDoesByUserId.HasFetchError
+
+condicionales: 
+
+GetToDoesByUserId.HasFetchError
+
+not GetToDoesByUserId.IsDataFetched
+
+GetToDoesByUserId.List.Empty
+
+El List necesita un source , asi que arrastramos un atributo del aggregates 
+List => 
+
+LISTAR - Crear y editar.
 
