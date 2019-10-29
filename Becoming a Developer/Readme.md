@@ -369,3 +369,13 @@ Se creo 2 server action publicas y se puso solo lectura a la entindad ToDo.
 ----------------------- 6.5 Debuging -----------------------
 ---------------------------------------------------------------------
 
+-------------------------------------------------------
+------------------------- 6.6 Exercice -------------------------
+----------------------------------------------------
+
+se valida los input 
+Length(GetToDoById.List.Current.ToDo.Title)<3
+
+y en el server validamos los roles.
+
+CheckRegisteredRole(UserId:)
