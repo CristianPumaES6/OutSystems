@@ -19,3 +19,13 @@ again, denuevo-
 previous , anterior
 
 However, sin embargo.
+through, mediante
+Provided , previsto
+Actions, ocmportamientos.
+thrown , arrojado.
+raised, elevado.
+handler, oficios.
+Raising, levantamiento
+current, actual
+pattern, modelo
+Since, ya que 

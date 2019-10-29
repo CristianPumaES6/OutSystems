@@ -304,3 +304,53 @@ In summary, in this specific exercise lab, we will:
 En el bloke menu, se deben enlazar los link de las paginas. esto se hace se pude hacer arrastrando los screem de las plantallas.
 
 Para el bloke de BottomBar, no es tan facil como arrastrar la pantalla, para esto nostros tenemos que usar el bottom Bar item, .
+
+----------------------------------------------------------------------------------
+----------------------- 6.1 Logic and Exception Handling -----------------------
+----------------------------------------------------------------------------------
+
+Action Flows
+- It can only have one Start node
+- Every Action flow can end with multiple:
+    End nodes
+    Raise Exception
+    Destination nodes
+
+- Pueden tener muchos Exception Handlers
+
+
+Code Reusability
+Screen Actions
+    -Executed client-side
+Server / Client Actions - can be called in multiple flows
+■ Client Actions .- can call Server and Client Actions
+■ Server Actions .- can only call Server Actions
+
+
+Flow Nodes
+    ○ Assign
+        Allows setting values to variables
+    ○ If
+        Creates a conditional branching on an Action flow
+    ○ Switch
+        Creates conditional branching with multiple branches
+    ○ For Each
+        Allows iterating through a Record List
+    ○ Ad-hoc loops
+        Use the If to evaluate a loop condition
+    ○ JavaScript
+
+
+Exception Handling
+    ○ Handler Flows
+        An Exception is thrown when an operation fails unexpectedly at runtime
+    ○ Raising Exceptions
+        An Exception can be raised
+    ○ Global Exception Handler
+
+------------------------------------------------------
+----------------------- 6.2 exercicios -----------------------
+---------------------------------------------------------------------
+
+Se creo 2 server action publicas y se puso solo lectura a la entindad ToDo.
+
