@@ -388,3 +388,10 @@ CheckRegisteredRole(UserId:)
 generar la app es tan facil como dar 2 click.
 
 
+-------------------------------------------------------
+--------- 7.2 Exercice Generar APP -----------------
+----------------------------------------------------
+
+
+
+
