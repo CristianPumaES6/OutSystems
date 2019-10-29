@@ -354,3 +354,9 @@ Exception Handling
 
 Se creo 2 server action publicas y se puso solo lectura a la entindad ToDo.
 
+
+
+------------------------------------------------------
+----------------------- 6.3 Validations -----------------------
+---------------------------------------------------------------------
+
