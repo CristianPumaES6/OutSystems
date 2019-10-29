@@ -379,3 +379,12 @@ Length(GetToDoById.List.Current.ToDo.Title)<3
 y en el server validamos los roles.
 
 CheckRegisteredRole(UserId:)
+
+
+-------------------------------------------------------
+------------------------- 6.6 Generar APP -------------------------
+----------------------------------------------------
+
+generar la app es tan facil como dar 2 click.
+
+
