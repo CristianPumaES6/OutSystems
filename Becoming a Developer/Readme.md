@@ -191,3 +191,48 @@ Advanced Queries
 ----------------------------------------------------------------
 
 Customizing CSS
+
+----------------------------------------------------------------
+----------------------- 5.5 Mobile Screen ----------------------
+----------------------------------------------------------------
+Server is only needed for querying the database or executing server-side code
+
+Events during the transition can be used in the application logic
+
+App Events
+○ On Application Ready
+     Executed when the application is loading
+○ On Application Resume
+    ecuted when the application is
+    returning from background to
+    foreground
+
+
+
+Screen Lifecycle Events
+○ OnInitialize
+○ OnReady
+○ OnRender
+○ OnDestroy
+
+Lifecycle Event Handlers
+
+-------On Initialize--------------
+Occurs after checking the permission of the user to access the Screen, but before
+navigating to the Screen and fetching data. You can use it to initialize the Screen,
+by setting its default data.
+
+-------On Ready --------------
+Occurs after the Screen DOM is ready. You can use it to manipulate the DOM.
+
+-------On Render --------------
+Occurs right after the Screen On Ready Event handler and every time the data of a
+Screen changes. You can use it to update some third-party component.
+
+-------On Destroy ---------------------
+Occurs before destroying a Screen and removing it from the DOM. You can use it
+to implement logic when the component is disposed.
+
+------- On After Fetch---------------------
+Occurs after an Aggregate or Data Action has finished fetching data, but before
+the data is rendered on the Screen.You can use it to act upon the retrieved data
