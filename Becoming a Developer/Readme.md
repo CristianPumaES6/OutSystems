@@ -238,10 +238,7 @@ Occurs after an Aggregate or Data Action has finished fetching data, but before
 the data is rendered on the Screen.You can use it to act upon the retrieved data
 
 
-
-----------------------------------------------------------------
------------------------ 5.6 Screen Layouts----------------------
-----------------------------------------------------------------
+v
 
 Layout Block
 ● Screens use this Block by default
@@ -293,3 +290,17 @@ Common Screens Actions
     ■ Must be online to login
         ○ SyncOnLogin
     ■ Performs the sync, if configured
+
+
+----------------------------------------------------------------------------------
+----------------------- 5.7 exercise Layouts and common UI -----------------------
+----------------------------------------------------------------------------------
+In summary, in this specific exercise lab, we will:
+● Tweak the look and feel of the Splash Screen
+● Add links to the existing Screens to the Menu
+● Add links to the existing Screens to the Bottom Bar
+
+
+En el bloke menu, se deben enlazar los link de las paginas. esto se hace se pude hacer arrastrando los screem de las plantallas.
+
+Para el bloke de BottomBar, no es tan facil como arrastrar la pantalla, para esto nostros tenemos que usar el bottom Bar item, .
