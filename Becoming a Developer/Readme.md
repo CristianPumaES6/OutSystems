@@ -236,3 +236,60 @@ to implement logic when the component is disposed.
 ------- On After Fetch---------------------
 Occurs after an Aggregate or Data Action has finished fetching data, but before
 the data is rendered on the Screen.You can use it to act upon the retrieved data
+
+
+
+----------------------------------------------------------------
+----------------------- 5.6 Screen Layouts----------------------
+----------------------------------------------------------------
+
+Layout Block
+● Screens use this Block by default
+
+Defines the Screen structure with Placeholders
+■ Title
+■ Content
+■ Bottom
+
+Events
+○ OnSync
+○ OnPullToRefresh
+○ Event Handlers
+
+Common UI Flow
+● Exceptions
+● Screens
+● Blocks
+● Redirect
+
+Menu Block
+BottomBar Block
+
+
+On Exception Action
+● SecurityException - User not authenticated or authorized
+● CommunicationException - No (or weak) connection; timeouts
+● AllExceptions - All other exceptions
+
+
+
+Common Screens
+Splash Screen
+    Displayed when app is loading
+
+Login Screen
+    Asks for username and password
+
+InvalidPermissions Screen
+    OnException Action Destination for Security Exception
+
+Common Screens Actions
+ Splash Screen
+    ○ OnLoadComplete
+    ○ OnUpgradeProgress
+    Login Screen
+ Login Action
+    ■ Server Action
+    ■ Must be online to login
+        ○ SyncOnLogin
+    ■ Performs the sync, if configured
