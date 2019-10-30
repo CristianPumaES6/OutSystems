@@ -381,17 +381,63 @@ y en el server validamos los roles.
 CheckRegisteredRole(UserId:)
 
 
--------------------------------------------------------
-------------------------- 6.6 Generar APP -------------------------
-----------------------------------------------------
+---------------------------------------------------
+------------------------- 6.6 Generar APP ---------
+---------------------------------------------------
 
 generar la app es tan facil como dar 2 click.
 
 
--------------------------------------------------------
+----------------------------------------------------
 --------- 7.2 Exercice Generar APP -----------------
 ----------------------------------------------------
 
 
+----------------------------------------------------
+---------      8.1 Local Storage     ---------------
+----------------------------------------------------
+
+Local Storage Entity
+○ Stored on device
+○ Available Online or Offline
+
+-- Local Storage Scenarios
+
+    Various local storage use cases
+    Stand alone apps
+    Caching
+    Offline
+        ■ Store data locally
+        ■ Read only, or can data be changed?
+        ■ All data, or subsets of data?
+
+-- Creating Local Storage Entities
+        
+    Created just like a Database Entity
+        Special “All” Actions (for sync process)
+        ■ CreateOrUpdateAll and DeleteAll Actions
+
+
+    No Static Entities in Local Storage
+
+
+-- Initializing Local Storage Entities
+    Download data from the server
+    Create / enter data on device (user)
+    No data preview
+
+
+-- Fetching Data from Local Storage
+    Data from Local Storage can only be fetched via Aggregates
+
+-- Securing Local Storage
+    Avoid storing sensitive data on the device
+    Store small amounts of sensitive data
+        - Use Javascript encryption framework to encrypt data before storing it
+
+
+----------------------------------------------------
+---------         ---------------
+----------------------------------------------------
 
 

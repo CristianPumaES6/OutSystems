@@ -29,3 +29,7 @@ Raising, levantamiento
 current, actual
 pattern, modelo
 Since, ya que 
+
+rarely, raro 
+Available, disponible.
+Fetching , atractivo
