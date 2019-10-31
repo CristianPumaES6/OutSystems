@@ -442,3 +442,51 @@ Local Storage Entity
 
 
 
+
+----------------------------------------------------
+---------   8.3 Data Synchonization   ----------
+----------------------------------------------------
+Configures automatic start and retry
+of the synchronization process
+    ○ When the app gets online
+    ○ When the user logs in
+    ○ When the user resumes the app
+
+
+OfflineDataSync Action
+
+Can be used for creating logic executed on the client
+
+Client Action that calls the server to synchronize data
+    Input parameter: SyncUnit
+    Calls ServerDataSync
+        ■ Needs SyncUnit as Input
+
+SyncUnit
+    ○ Defines set of data to sync
+
+
+Synchronization patterns
+
+    Read-Only Data
+        Use this synchronization pattern when your users only need to read data while the app is offline and the amount of data to synchronize is small.
+
+    Read-Only Data Optimized
+        Use this synchronization pattern when your users only need to read data while the app is offline and there are large amounts of data to synchronize.
+
+    Read/Write Data Last Write Wins
+        Use this synchronization pattern when it is not likely for more than one user to change the same data while the app is offline.
+
+    Read/Write Data with Conflict Detection
+        This data synchronization pattern is recommended for advanced scenarios where multiple end-users will change the same data while the apps are offline.
+
+    Read/Write Data One-to-Many
+        This data synchronization pattern is recommended for mobile apps with entities that follow a one-to-many relationship and where it is not likely for multiple end-users to change the same data while the apps are offline.
+
+----------
+OfflineDataSync Events Block
+
+Handles Sync Events
+    ○ OnSyncComplete
+    ○ OnSyncError
+    ○ OnSyncStart

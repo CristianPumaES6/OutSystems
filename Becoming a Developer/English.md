@@ -33,3 +33,4 @@ Since, ya que
 rarely, raro 
 Available, disponible.
 Fetching , atractivo
+Handles, manejas 
