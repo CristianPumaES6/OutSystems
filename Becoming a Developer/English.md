@@ -34,3 +34,8 @@ rarely, raro
 Available, disponible.
 Fetching , atractivo
 Handles, manejas 
+also, ademas
+
+both, ambos 
+
+SEGURO - 

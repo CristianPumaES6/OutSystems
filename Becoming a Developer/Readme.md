@@ -490,3 +490,31 @@ Handles Sync Events
     ○ OnSyncComplete
     ○ OnSyncError
     ○ OnSyncStart
+
+
+----------------------------------------------
+---------      Exercicio 8.5    ---------------
+----------------------------------------------
+
+Click derecho create action to Sync Data (Read-Only)
+
+esto nos generara uan action.
+
+esta acttion para el clear se le pone DeleteAll
+
+esta acttion para el Refresh se le pone TriggerOfflineDataSync
+
+
+modificamos los client action .,
+
+para sincronizar debemos estar en la logical.
+
+ServerDataSync <.--- aqui se creo una variable de tipo list record.
+que teneina los 2 valores de los objeto 
+
+dento del action hay ubn for que recorre e inserta los datos.
+
+
+OfflineDataSync
+
+aquie jalamos los agregate los add y los update. 
